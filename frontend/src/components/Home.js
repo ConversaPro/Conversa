@@ -74,7 +74,7 @@ const Home = () => {
       {/* Copyright */}
       <Flex position="absolute" bottom={4} w="100%" justify="center">
         <Text fontSize="sm" color="gray.500">
-          &copy; 2024 Conversa. All rights reserved.
+          &copy; 2024 Conversa. All rights reserved. Riya Sharma
         </Text>
       </Flex>
       {/* <Auth /> */}
