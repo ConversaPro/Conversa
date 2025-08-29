@@ -4,7 +4,7 @@ import io from "socket.io-client";
 // 192.168.0.104
 //http://192.168.0.104:5000
 // Base URL comes from environment; falls back to local dev server
-const hostName = process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
+const hostName = process.env.REACT_APP_API_URL;
 var socket = io(hostName, { autoConnect: true, reconnection: true });
 
 const ChatState = (props) => {
